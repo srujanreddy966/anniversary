@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniversary</title>
+    <style>
+        /* --- Basic Setup & Pink/Blue Baby Theme --- */
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            line-height: 1.7;
+            background: linear-gradient(to bottom right, #FFF0F5, #F0F8FF);
+            color: #5A768A;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 650px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 35px 45px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(173, 216, 230, 0.5);
+            text-align: center;
+        }
+
+        /* --- Typography & Theme Colors --- */
+        h1 {
+            font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+            color: #FFB6C1;
+            font-size: 2.8rem;
+            margin-bottom: 10px; /* Adjusted margin */
+            font-weight: normal;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+        }
+
+        /* --- Image Styling --- */
+        .family-photo {
+            max-width: 80%; /* Control image size relative to container */
+            height: auto;   /* Maintain aspect ratio */
+            border-radius: 8px; /* Soft rounded corners for the image */
+            margin-top: 15px;   /* Space above the image */
+            margin-bottom: 20px; /* Space below the image */
+            border: 3px solid white; /* Optional: white frame */
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow on image */
+        }
+
+        h2 {
+            color: #87CEFA;
+            font-size: 1.4rem;
+            margin-top: 30px; /* Adjusted from 35px */
+            margin-bottom: 15px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            border: none;
+        }
+
+        p {
+            font-size: 1.05rem;
+            margin-bottom: 1.2em;
+            color: #667C8A;
+        }
+
+        .announcement {
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: #FF6B81;
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+
+        .paw-print {
+            color: #ADD8E6;
+            font-size: 1.2em;
+            margin: 0 5px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .signature {
+            margin-top: 40px;
+            font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+            font-size: 2rem;
+            color: #87CEFA;
+        }
+
+        /* --- Responsive Adjustments --- */
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+            .container {
+                padding: 25px 20px;
+            }
+            h1 {
+                font-size: 2.2rem;
+            }
+            /* Adjust image size on smaller screens */
+            .family-photo {
+                max-width: 90%;
+            }
+            h2 {
+                font-size: 1.2rem;
+                margin-top: 25px;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .announcement {
+                font-size: 1.05rem;
+            }
+            .signature {
+                font-size: 1.7rem;
+            }
+        }
+
+    </style>
+    <!-- Add a favicon here if you like (maybe a paw print?) -->
+    <!-- <link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>Our Little Purrfect Anniversary!</h1>
+
+        <!-- === IMAGE PLACEHOLDER === -->
+        <img src="image.png" alt="Image" class="family-photo">
+        <!-- === END IMAGE PLACEHOLDER === -->
+
+
+        <p class="announcement">
+            Happy 1 Year, my baby!
+            <br>
+            And... we're expecting! <span class="paw-print">🐾</span>
+            (Well, *you* are, but I'm just as excited!)
+        </p>
+
+        <h2>One Year of Love... Preparing the Nest!</h2>
+        <p>
+            This past year apart has shown how strong we are. We've built something amazing across the miles,
+            and now our little 'family' is growing! It feels like we've spent the year getting everything ready
+            for this happy arrival.
+        </p>
+
+        <h2>To the Wonderful Cat Mom-to-Be</h2>
+        <p>
+            Seeing your excitement for the little one makes my heart melt.
+            You're going to be the most wonderful, patient, and loving cat mom.
+            Get ready for tiny meows, endless cuddles, and someone new to share your snacks with!
+        </p>
+
+        <h2>Our Future with Three (Sort Of!)</h2>
+        <p>
+            I can't wait for all the video calls featuring our furry little star <span class="paw-print">🐾</span>,
+            hearing all the stories, and eventually meeting the little one who's already stolen a piece of our hearts.
+            Here's to many more years and shared joys, big and small.
+        </p>
+
+        <p class="signature">All my love,<br>
+        Your Bee</p>
+
+    </div>
+
+</body>
+</html>
